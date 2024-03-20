@@ -8,7 +8,7 @@ export const App = () => {
       <h1>Phonebook</h1>
       <ContactForm buttonSubmit='add contact'/> 
       <h2>Contacts</h2>
-      <Filter /><button>delete all</button>
+      <Filter />
       <ContactList />
     </div>
   );
